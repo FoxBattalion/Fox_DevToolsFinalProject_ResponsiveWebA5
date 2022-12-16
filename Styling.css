@@ -7,12 +7,20 @@ html {
 }
 body {
     width: 85%;
+    margin-top: 1rem;
     margin-left: auto;
     margin-right: auto;
+    background-color: palevioletred;
+    height: max-content;
 }
 h1 {
-    color: darkorange;
+    color: navy;
     font-weight: bold;
+    padding: 1rem;
+    text-align: center;
+}
+h2{
+    
     padding: 1rem;
     text-align: center;
 }
@@ -36,7 +44,10 @@ h1 {
     
 }
 @media screen and (min-width:1100px) {
-    h1{
+    h1,h2{
         text-align: left;
     }    
+    h2{
+        max-width: 80%;
+    }
 }
