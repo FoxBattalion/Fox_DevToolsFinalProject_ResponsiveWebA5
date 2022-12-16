@@ -1,0 +1,9 @@
+html {
+    width: 90%;
+    font-family: 'Times New Roman', Times, serif,monospace;
+    background-color: lightskyblue;
+}
+h1 {
+    color: darkorange;
+    font-weight: bold;
+}
